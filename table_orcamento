@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS orcamentos (
+    os_id int(5) NOT NULL AUTO_INCREMENT,
+    condominio varchar(50) DEFAULT NULL,
+    zelador varchar(50) DEFAULT NULL,
+    sindico varchar(50) DEFAULT NULL,
+    indicacao varchar(50) DEFAULT NULL,
+    consultor varchar(50) DEFAULT NULL,
+    data DATE DEFAULT NULL,
+    nome_cliente varchar(50) DEFAULT NULL,
+    telefone varchar(50) DEFAULT NULL,
+    email varchar(50) DEFAULT NULL,
+    PRIMARY KEY(os_id)
+    );
+
+
+    INSERT INTO orcamentos (condominio, zelador, sindico, indicacao, consultor, data, nome_cliente, telefone, email) VALUES ("Alameda Cabral", "Vinicius", "Fabiano", "Flavio", "Gessilaine", Now(), "Andrenise", "91883337", "meflaviolages@gmail.com");
